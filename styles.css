@@ -1,14 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
-    margin-inline: auto;
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand-name{
+    color: aliceblue;
+    font-weight: bolder;
 }
 .navbar{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    padding: 2rem;
+}
+.navbar a, .login a{
+    text-decoration: none;
+    font: 0.5rem;
+    color: azure;
+}
+.login button{
+    background-color:aqua;
+    padding: 0.5rem;
+    border-color: aqua;
+
+}
+.cover1-content{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: aliceblue;
+}
+.get-learn button{
+    height: 3rem;
+    width: 10rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    color: aliceblue;
+}
+.get-learn #quote{
+    background-color: aqua;
+    border-color: aqua;
 }
 .hero-cover{
     width: 100%;
